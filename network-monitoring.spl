@@ -1,0 +1,3 @@
+index=soc_windows sourcetype=WinEventLog:Sysmon EventCode=3
+| table _time host Image SourceIp SourcePort DestinationIp DestinationPort Protocol User
+| head 20
