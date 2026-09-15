@@ -1,0 +1,2 @@
+index=soc_windows
+| timechart span=1d count
