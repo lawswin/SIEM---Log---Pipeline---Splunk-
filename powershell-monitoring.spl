@@ -1,0 +1,3 @@
+index=soc_windows sourcetype=WinEventLog:PowerShell
+| table _time host EventCode Message
+| head 20
